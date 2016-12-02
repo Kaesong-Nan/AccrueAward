@@ -1,0 +1,9 @@
+name: AccrueAward
+version: ${project.version}
+main: com.github.skystardust.accrueaward.AccrueAward
+depend: [PlayerPoints]
+authors: [SkyStardust]
+commands:
+ aw:
+  description: main command
+  usage: type aw

@@ -1,0 +1,16 @@
+Database:
+  Enable: true
+  username: root
+  password: 12345678
+  port: 3306
+  ip: 127.0.0.1
+  database: mysql
+Accrue:
+  20:
+    runcommand:
+      - 'eco give $player$ 1000'
+      - 'give $player$ 57 1'
+  100:
+    runcommand:
+      - 'eco give $player$ 2000'
+      - 'give $player$ 57 2'
